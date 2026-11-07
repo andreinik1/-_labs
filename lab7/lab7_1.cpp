@@ -23,7 +23,7 @@ int main()
         }
     }
 
-    cout << "Result: " << positive_nums + matrix[2][2] << endl;
+    cout << "Result: " << positive_nums + matrix[1][1] << endl;
 
     return 0;
 }
