@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    vector<double> arr = {-2.5, 4.1, 0.0, 7.8, -1.0, 0.0, 3.2};
+    double arr[] = {-2.5, 4.1, 0.0, 7.8, -1.0, 0.0, 3.2};
     double max_el = 0.0, sum_of_nums = 0.0, avg;
 
     for (double el : arr)
@@ -17,7 +17,7 @@ int main()
         }
     }
 
-    avg = sum_of_nums / arr.size();
+    avg = sum_of_nums / (sizeof(arr) / sizeof(arr[0]));
 
     cout << "Max element: " << max_el << endl;
     cout << "Average: " << avg << endl;

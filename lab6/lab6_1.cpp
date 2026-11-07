@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    vector<double> arr = {-2.5, 4.1, 0.0, 7.8, -1.0, 0.0, 3.2};
+    double arr[] = {-2.5, 4.1, 0.0, 7.8, -1.0, 0.0, 3.2};
     double res = 0.0;
     int zero_count = 0;
 
