@@ -5,10 +5,12 @@ int main()
 {
 
     int matrix[3][3] = {
-        {3, 2, 1},
+        {3, 0, 0},
         {-5, 8, 0},
-        {9, -1, 4},
+        {9, -1, 0},
     };
+
+    cout << "Numbers of rows with only one zero: ";
 
     for (int i = 0; i < 3; i++)
     {
@@ -24,7 +26,7 @@ int main()
 
         if (zero_count == 1)
         {
-            cout << "Rows with only one zero: " << i + 1 << "; ";
+            cout << i + 1 << "; ";
         }
     }
 
