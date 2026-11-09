@@ -28,7 +28,7 @@ int main()
     // Заповнення масиву числами
     for (int i = 0; i < size_of_arr; i++)
     {
-        int rand_number = ((rand() % 1000) - 500) / 10.0;
+        double rand_number = ((rand() % 1000) - 500) / 10.0;
         arr[i] = rand_number;
     }
 
