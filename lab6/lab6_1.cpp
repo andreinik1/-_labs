@@ -1,4 +1,9 @@
+//Імпортування бібліотек
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+// Використання неймспейсу std
 using namespace std;
 
 int main()
