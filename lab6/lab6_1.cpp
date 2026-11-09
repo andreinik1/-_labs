@@ -19,7 +19,7 @@ int main()
     cin >> size_of_arr;
 
     // Перевірка на валідність вводу
-    if (size_of_arr < 0 || size_of_arr > 100)
+    if (size_of_arr < 1 || size_of_arr > 100)
     {
         cout << "Invalid size of array!" << endl;
         return 1;

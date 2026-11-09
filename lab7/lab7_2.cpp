@@ -11,7 +11,7 @@ int main()
     // Ініціалізація змінних
     const int MAX_COLS = 100;
     const int MAX_ROWS = 100;
-    double matrix[MAX_ROWS][MAX_COLS];
+    int matrix[MAX_ROWS][MAX_COLS];
     int rows, cols;
 
     // Отримання розміру матриці
