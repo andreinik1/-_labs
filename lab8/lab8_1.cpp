@@ -37,7 +37,7 @@ int main()
     {
         for (int j = 0; j < cols; j++)
         {
-            int rand_number = ((rand() % 10000) - 3000) / 1000.0;
+            double rand_number = ((rand() % 10000) - 3000) / 1000.0;
             matrix[i][j] = rand_number;
         }
     }
